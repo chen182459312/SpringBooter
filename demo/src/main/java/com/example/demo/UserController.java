@@ -11,7 +11,7 @@ import java.util.Map;
 public class UserController {
     @RequestMapping("/hello")
     public String hello() {
-        return "Hello Spring Boot!";
+        return "Hello little darlings, I'm Spring Boot! you are welcome.";
     }
 
     @RequestMapping("/user")

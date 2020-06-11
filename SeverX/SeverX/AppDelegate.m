@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self httpPost];
+//    [self httpGet];
     return YES;
 }
 - (void)httpPost {
@@ -47,7 +48,6 @@
         } else {
             NSLog(@"http error :%ld", (long)httpResponse.statusCode);
         }
-        
     }];
     [task resume];
 }
